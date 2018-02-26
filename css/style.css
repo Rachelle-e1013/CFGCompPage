@@ -1,7 +1,7 @@
 /* Styling our own way */
 
-*{
-	font-family:"Times New Roman", Times, serif;
+* {
+	font-family: 'Oswald', sans-serif;
 }
 
 
@@ -10,6 +10,7 @@ body {
 	padding-right: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	font-family: 'Oswald', sans-serif;
 }
 
 p {
@@ -42,13 +43,13 @@ p {
 
 /* Landing page */
 .jumbotron {
-	height: 600px;
+	height: 500px;
 }
 
 .jumbotron h1 {
-  margin-top: 200px;
-  font-family: "Times New Roman", Times, serif;
-	font-size: 40px ;
+	margin-top: 70px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 180px;
 }
 
 .jumbotron p {
@@ -60,11 +61,12 @@ p {
 	color: blue;
 }
 #title {
-	color: black;
+	color: #9EE9E6;
+	text-shadow: 5px 5px #449592;
 }
 
 #landingPage {
-  background-image: url("../images/landingimage.jpg");
+  background: -webkit-linear-gradient(right, #faffd1, #a1ffce); -moz-linear-gradient(right,)
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -74,6 +76,13 @@ p {
 .navbar a, .nav a {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
+}
+
+#headericon {
+	width: 600px;
+	height: 400px;
+	padding: 20px;
+	align-items: center;
 }
 
 ul {
@@ -122,11 +131,16 @@ li a:hover {
 	background-color:grey;
 }
 
+
+#headerfeatures {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px ;
+	}
 /* iphone pic resize and center */
 #iphone-chat {
 	display: block;
-	max-width:40%;
-	max-height:40%;
+	max-width:100%;
+	max-height:100%;
 	width: auto;
 	height: auto;
 	margin-left: auto;
