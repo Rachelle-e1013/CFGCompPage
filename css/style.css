@@ -1,7 +1,7 @@
 /* Styling our own way */
 
 *{
-	font-family:"Times New Roman", Times, serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 
@@ -10,6 +10,11 @@ body {
 	padding-right: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-family: 'mr-robot';
 }
 
 p {
@@ -125,8 +130,8 @@ li a:hover {
 /* iphone pic resize and center */
 #iphone-chat {
 	display: block;
-	max-width:40%;
-	max-height:40%;
+	max-width:100%;
+	max-height:100%;
 	width: auto;
 	height: auto;
 	margin-left: auto;
