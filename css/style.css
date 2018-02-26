@@ -79,10 +79,15 @@ p {
 }
 
 #headericon {
-	width: 600px;
-	height: 400px;
+	width: 100%;
+	height: 100%;
 	padding: 20px;
-	align-items: center;
+	max-width: 400px;
+
+}
+
+#intro {
+	background-image: url("medbg.jpg")
 }
 
 ul {
@@ -91,6 +96,10 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #75a8ce;
+}
+
+.navigation {
+	background: #399988;
 }
 
 li {
@@ -110,7 +119,7 @@ li a:hover {
     background-color: #9fbbd0;
 }
 .active {
-    background-color: #1e7abf;
+    background-color: #399988;
 }
 
 /* Testimonies and FAQs sections */
@@ -118,6 +127,7 @@ li a:hover {
   height: 200px;
   width: 200px;
 	color: grey;
+	display: inline;
 }
 
 .row .pull-right {
