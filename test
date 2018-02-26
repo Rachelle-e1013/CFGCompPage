@@ -1,3 +1,9 @@
+<form role='form'>
+      <label for="email">Please, enter your email address to find out more! </label>
+      <input type="text" name="email" >
+      <button type="submit">Send</button>
+    </form>
+
 <nav class="navbar navbar-expand-md navbar-light bg-light">
  <a class="navbar-brand" href="./index.html"><img alt="Mr. mAd" src="./images/MrmAd.png" style="max-width:210px"></a>
  <button aria-controls="navbar" aria-expanded="false" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">

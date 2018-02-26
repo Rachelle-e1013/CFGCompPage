@@ -64,7 +64,7 @@ p {
 }
 
 #landingPage {
-  background-image: url("images/landingimage.jpg");
+  background-image: url("../images/landingimage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -122,6 +122,19 @@ li a:hover {
 	background-color:grey;
 }
 
+/* iphone pic resize and center */
+#iphone-chat {
+	display: block;
+	max-width:40%;
+	max-height:40%;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+#features-text {
+  background-color: #75a8ce;
+}
 
 /* Footer */
 footer {
@@ -130,4 +143,20 @@ footer {
   font-size: 18px;
   background-color: #9fbbd0;
   color: white;
+}
+
+
+
+/*FORM*/
+
+#form_container
+{
+	padding:0px 0px;
+	margin-top:0px;
+	background: rgba(255,255,255,0.75);
+}
+
+/*THETEAM*/
+#desc {
+	color: blue;
 }
