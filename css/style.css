@@ -127,6 +127,11 @@ li a:hover {
 	background-color:grey;
 }
 
+
+#headerfeatures {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px ;
+	}
 /* iphone pic resize and center */
 #iphone-chat {
 	display: block;
