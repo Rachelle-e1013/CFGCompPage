@@ -15,19 +15,16 @@ body {
 
 p {
   padding: 5px;
-  font-family:"Times New Roman", Times, serif;
   font-size: 18px;
 	color:black;
 }
 
 h2 {
-  font-family: "Times New Roman", Times, serif;
 	font-weight: bold;
 	font-size: 28px ;
 }
 
 h3 {
-  font-family: "Times New Roman", Times, serif;
 	font-size: 24px ;
 }
 
@@ -47,7 +44,6 @@ h3 {
 
 .jumbotron h1 {
 	margin-top: 70px;
-	font-family: 'Oswald', sans-serif;
 	font-size: 180px;
 }
 
@@ -60,8 +56,15 @@ h3 {
 	color: blue;
 }
 #title {
-	color: #9EE9E6;
-	text-shadow: 5px 5px #449592;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 120px;
+	/*color: #9EE9E6;*/
+	/*text-shadow: 5px 5px #449592;*/
+	text-shadow: 5px 5px #9EE9E6;
+}
+
+#subtitle {
+	font-family: 'Audiowide', cursive;
 }
 
 #landingPage {
@@ -71,22 +74,35 @@ h3 {
   background-position: center;
 }
 
-/* Navigation bar */
-.navbar a, .nav a {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-}
-
 #headericon {
 	width: 100%;
 	height: 100%;
 	padding: 20px;
 	max-width: 400px;
-
 }
 
 #intro {
 	background-image: url("medbg.jpg")
+}
+
+/* Navigation bar */
+
+.navbar-header {
+	font-size: 30px;
+}
+
+.navbar a, .nav a {
+  font-size: 30px;
+	color: black;
+}
+
+.container-fluid {
+	background: #EFFFFA;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .09);
+}
+
+.navbar-brand {
+	margin: -15px;
 }
 
 ul {
@@ -94,7 +110,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #75a8ce;
 }
 
 .navigation {
@@ -116,9 +131,7 @@ li a {
 li a:hover {
     background-color: #9fbbd0;
 }
-.active {
-    background-color: #399988;
-}
+
 
 /* Testimonies and FAQs sections */
 .row img, .img-circle, .img-responsive {
@@ -141,7 +154,6 @@ li a:hover {
 
 /*features*/
 #headerfeatures {
-	font-family: "Times New Roman", Times, serif;
 	font-size: 24px ;
 	}
 
@@ -159,16 +171,13 @@ li a:hover {
   background-color: #75a8ce;
 }
 
-/* Footer */
+/*FOOTER*/
 footer {
   padding: 10px 0;
-  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   background-color: #9fbbd0;
   color: white;
 }
-
-
 
 /*FORM*/
 .form-style{
@@ -239,8 +248,46 @@ footer {
     background: #2EBC99;
 }
 
+/*media-responsive design elements*/
+@media (max-width: 500px) {
+	#title {
+		font-size: 80px;
+		margin: -10px;
+	}
+
+	#headericon {
+		padding: 0 20px 20px 20px;
+	}
+}
 
 /*THETEAM*/
 #desc {
 	color: blue;
+}
+
+/*THE RESEARCH*/
+.statistics {
+	background: black;
+}
+
+.fact {
+	text-align: center;
+	font-size: 24px;
+}
+
+#facticon {
+	font-size: 10em;
+	margin: 20px;
+}
+
+#waste {
+	color: #207364;
+}
+
+#poly {
+	color: #204873;
+}
+
+#admit {
+	color: #3F2073;
 }
