@@ -55,42 +55,41 @@
 
   <header>
       <div id="landingPage" class="jumbotron text-center">
-        <div class="col-md-1">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="img-circle img-responsive" id="headericon" src="./images/mrmad.png"/>
+          </div>
+
+          <div class="col-md-7">
+            <h1 id="title">Mr. MAd</h1>
+            <h2 id="subtitle">Helping you take your medication at the right time, at the right dose, and in the right way.</h2>
+          </div>
         </div>
 
-        <div class="col-md-4">
-          <img class="img-circle img-responsive" id="headericon" src="./images/mrmad.png"/>
-        </div>
-
-        <div class="col-md-6">
-          <h1 id="title">Mr. MAd</h1>
-          <h2 id="subtitle">Helping you take your medication at the right time, at the right dose, and in the right way.</h2>
-        </div>
-
-        <div class="col-md-1">
-        </div>
+        <i class="fas fa-angle-double-down"></i>
       </div>
   </header>
 
 <div class="main">
   <div class="container text-center" id="intro">
-    <h2> Introduction <h2>
+    <h2 id="sectiontitle"> Introduction <h2>
       <div class="row">
-        <p> (insert image)
-        <!-- Format: the bot image on the left with brief description alongside
-        and 'sign-up button', as well as arrow to scroll down for more information-->
-        <!-- Intro text:-->
-        Hi! I'm Mr. MAd, I'm a ChatBot that helps you take your medication!
-        <!-- Button -->
-        "Tell me more!"
-         </p>
+        <div class="col-md-4">
+          <h3><span class="bigstats">50%</span><br>of patients don't take their medication as prescribed.</h3>
+        </div>
+        <div class="col-md-4">
+          <h3><span class="bigstats">£500m</span><br>of costs to the NHS arising from medication non-adherence.</h3>
+        </div>
+        <div class="col-md-4">
+          <h3><span class="bigstats">200k</span><br>deaths in the EU caused by missed doses of medication.</h3>
+        </div>
  </div>
 </div> <!-- Introduction div is now closed -->
 
 
 
 <div class="container" id="features">
-  <h2 class="text-center"> Features </h2>
+  <h2 class="text-center" id="sectiontitle"> Features </h2>
     <div id="features-text">
         <div class="row">
 
@@ -123,7 +122,7 @@
 
 
 <div class="container" id="testimonies">
-  <h2 class="text-center"> Patient testimonies </h2>
+  <h2 class="text-center" id="sectiontitle"> Patient testimonies </h2>
   <div class="row bg-info" id="quote">
     <img class="img-circle img-responsive pull-left" src="images/picture1.jpg"/>
     <p class="text-right"> First quote from patient 1 </p>
