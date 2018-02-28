@@ -1,9 +1,14 @@
-/* Styling our own way */
+/* Color Palette codes:
+Dark blue: #11135e
+Dull blue: #2d3157
+Turqoise: #34c1bb
+Pale green: #badccc
+Yellow: #ffda4d */
 
+/* Styling our own way */
 * {
 	font-family: 'Oswald', sans-serif;
 }
-
 
 body {
 	padding-left: 0px;
@@ -52,6 +57,10 @@ h3 {
 	font-size: 18px ;
 }
 
+.main {
+	background-image: url('./images/medbg.jpg');
+}
+
 #quote {
 	color: blue;
 }
@@ -97,12 +106,13 @@ h3 {
 }
 
 .container-fluid {
-	background: #EFFFFA;
+	background: rgba(239, 246, 243,.7);
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .09);
+	height: 55px;
 }
 
 .navbar-brand {
-	margin: -15px;
+	margin: -13px;
 }
 
 ul {
@@ -270,24 +280,29 @@ footer {
 	background: black;
 }
 
-.fact {
-	text-align: center;
-	font-size: 24px;
+.facts {
+	height: 300px;
+	background-size: cover;
 }
 
-#facticon {
-	font-size: 10em;
-	margin: 20px;
+.factbox {
+	background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	text-align: justify;
+	color: white;
+	width: 100%;
 }
 
-#waste {
-	color: #207364;
+.waste {
+	background-image: url("../images/pills.jpg");
 }
 
-#poly {
-	color: #204873;
+.poly {
+	background-image: url("../images/polypharmacy.jpg");
 }
 
-#admit {
-	color: #3F2073;
+.admit {
+	background-image: url("../images/conversation.jpg");
 }
