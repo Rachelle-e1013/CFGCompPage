@@ -110,7 +110,9 @@ li a:hover {
 }
 
 #landingPage {
-  background: -webkit-linear-gradient(right, #faffd1, #a1ffce); -moz-linear-gradient(right,)
+  background: linear-gradient(right,#faffd1, #a1ffce);
+	background: -webkit-linear-gradient(right, #faffd1, #a1ffce);
+	background: -moz-linear-gradient(right,#faffd1, #a1ffce);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -198,10 +200,11 @@ li a:hover {
 
 /* Testimonies and FAQs sections */
 .row img, .img-circle, .img-responsive {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 	color: grey;
 	display: inline;
+	margin: 10px;
 }
 
 .row .pull-right {
@@ -327,8 +330,37 @@ footer {
 }
 
 /*THETEAM*/
-#desc {
-	color: blue;
+
+#teamheader {
+	background: linear-gradient(right,#faffd1, #a1ffce);
+	background: -webkit-linear-gradient(right, #faffd1, #a1ffce);
+	background: -moz-linear-gradient(right,#faffd1, #a1ffce);
+	height: 300px;
+	text-align: center;
+	padding: 80px 0 20px 0;
+	margin: 0 0 10px 0;
+}
+
+.info-box {
+	border-radius: 70px;
+}
+
+#rachel {
+	background: linear-gradient(right,white,#4ca2cd);
+	background: -webkit-linear-gradient(right,white,#4ca2cd);
+	background: -moz-linear-gradient(right,white,#4ca2cd);
+}
+
+#eky {
+	background: linear-gradient(left,white,#E54242);
+	background: -webkit-linear-gradient(left,white,#E54242);
+	background: -moz-linear-gradient(left,white,#E54242);
+}
+
+#agathe {
+	background: linear-gradient(right,white,#FFC300);
+	background: -webkit-linear-gradient(right,white,#FFC300);
+	background: -moz-linear-gradient(right,white,#FFC300);
 }
 
 /*THE RESEARCH*/
