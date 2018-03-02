@@ -123,6 +123,12 @@ li a:hover {
 	font-size: 120px;
 	text-shadow: 5px 5px #9EE9E6;
 }
+#title2 {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 100px;
+	text-shadow: 5px 5px #9EE9E6;
+}
+
 
 #subtitle {
 	font-family: 'Audiowide', cursive;
@@ -300,6 +306,16 @@ footer {
 .form-style input[type="button"]:hover{
     background: #2EBC99;
 }
+
+/*social media icons*/
+.share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
 
 /*media-responsive design elements*/
 @media (max-width: 500px) {
