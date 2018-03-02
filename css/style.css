@@ -318,17 +318,6 @@ footer {
 	}
 }
 
-/*ABOUT ME*/
-.wrapper {
-        display: flex;
-}
-
-#sidebar {
-        min-width: 250px;
-        max-width: 250px;
-        height: 100vh;
-}
-
 /*THETEAM*/
 
 #teamheader {
@@ -363,24 +352,41 @@ footer {
 	background: -moz-linear-gradient(right,white,#FFC300);
 }
 
-/*THE RESEARCH*/
-.statistics {
-	background: black;
+/*THE RESEARCH and ABOUT ME*/
+.theresearch {
+	height: 800px;
 }
 
-.facts {
+.wrapper {
+  display: flex;
+}
+
+#research {
+	margin: 10px;
+	padding: 10px;
+}
+
+.img_wrap {
 	height: 300px;
 	background-size: cover;
+  margin: 10px;
 }
 
-.factbox {
-	background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	text-align: justify;
-	color: white;
-	width: 100%;
+.img_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-linear-gradient(top, rgba(46, 100, 195,1), rgba(60, 205, 170,.4));
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+	height: 300px;
+	width: 400px;
+	text-align: center;
+	font-size: 30px;
 }
 
 .waste {
@@ -393,4 +399,9 @@ footer {
 
 .admit {
 	background-image: url("../images/conversation.jpg");
+}
+
+.img_wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
 }
