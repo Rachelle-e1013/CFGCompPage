@@ -23,22 +23,48 @@
 
 <body>
 
+  <div class="topnav navbar-fixed-top mytopnav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img class="navbaricon" alt="Mr. MAd" src="./images/mrmadicon.png"></a>
+      <a class="nav-link active" href="./index.html">  Mr. MAd  </a>
+      <a class="nav-link" href="#features">  About me  </a>
+      <a class="nav-link" href="./theresearch.html">  The research  </a>
+      <a class="nav-link" href="./theteam.html">  The team  </a>
+    <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">More Information
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./theteam.html"> The Team </a>
+        <a href="./theresearch.html"> The Research </a>
+        <a href="./registeryourinterest"> Register </a>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+<!--
   <nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="./index.html"><img alt="Mr. MAd" src="./images/mrmadicon.png" style="max-width:50px"></a>
+        <a class="navbar-brand" href="./index.html"><img class="navbaricon" alt="Mr. MAd" src="./images/mrmadicon.png"></a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="./index.html">  Mr. MAd  </a> </li>
-        <li class="nav-item"><a class="nav-link" href="./aboutme.html">  About me  </a> </li>
+        <li class="nav-item active"><a class="nav-link" href="./index.html">  Mr. MAd  </a> </li>
+        <li class="nav-item"><a class="nav-link" href="#features">  About me  </a> </li>
         <li class="nav-item"><a class="nav-link" href="./theteam.html">  The team  </a></li>
         <li class="nav-item"><a class="nav-link" href="./theresearch.html">  The research  </a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a class="active" href="./registeryourinterest.html">  Register your interest  </a></li>
+        <li><a class="register" href="./registeryourinterest.html">  Register your interest  </a></li>
       </ul>
     </div>
   </nav>
+-->
 
 <header>
     <div id="landingPage" class="jumbotron text-center">
@@ -72,53 +98,51 @@
         <h3><span class="bigstats">200k</span><br>deaths in the EU caused by missed doses of medication.</h3>
       </div>
     </div>
-    <h3>Learn more facts and figures about medication non-adherence <a class="active" href="./theresearch.html"> here.</a></h3>
+    <h3>Learn more facts and figures about medication non-adherence <a href="./theresearch.html"> here.</a></h3>
 </div>
 <!-- Introduction div is now closed -->
 
 <!-- Features section-->
-<div class="margin" id="features">
+<div id="features">
   <br>
   <div class="transbox">
     <h2 class="text-center" id="sectiontitle"> How can I help? </h2>
     <div class="row" id="featurelist">
-      <div class="col-md-4 col-sm-6 mb-sm-65 mb-xs-65"> <br> <br>
-        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i> I'm on Messenger</span>
-        <p>No need to download a separate app, find me on Facebook Messenger!</p> <br><br>
-        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i> I'm built by Doctors and Medical Students</span>
-        <p>Don't worry, I know what I'm doing. I was trained by Doctors and Medical Students. </p>
-      </div>
-      <div class="col-md-4 col-sm-6 mb-sm-65 mb-xs-65">
+      <div class="col-md-6 col-sm-6 mb-sm-65 mb-xs-65">
         <img id="iphone-chat" class="img-responsive text-center" src="images/App_screen.png"/>
       </div>
-      <div class="col-md-4 col-sm-6 mb-sm-65 mb-xs-65"> <br>
-          <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i>  I'm super interesting</h3></span>
-          <p>Say goodbye to the boring notifications. I'll just message you when it's time to take your medication.</p>
-          <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i>  Personalise me!</span>
-          <p>Choose the most effective way for me to remind you to take your medication.</p>
-          <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i> I'm super positive</span>
-          <p>I'll be encouraging you all along the way!</p>
+      <div class="col-md-6 col-sm-6 mb-sm-65 mb-xs-65">
+        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i> I'm on Messenger</span>
+        <p>No need to download a separate app, find me on Facebook Messenger!</p>
+        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i> I'm built by Doctors and Medical Students</span>
+        <p>Don't worry, I know what I'm doing. I was trained by Doctors and Medical Students. </p>
+        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i>  I'm super interesting</h3></span>
+        <p>Say goodbye to the boring notifications. I'll just message you when it's time to take your medication.</p>
+        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i>  Personalise me!</span>
+        <p>Choose the most effective way for me to remind you to take your medication.</p>
+        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i> I'm super positive</span>
+        <p>I'll be encouraging you all along the way!</p>
       </div>
+    </div>
   </div>
 </div>
-<!-- Features div is now closed -->
 
 <br><br>
 <section>
     <h2 class="text-center" id="sectiontitle"> Patient testimonies </h2>
     <div id=testimonies role="tablist">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-12">
         <img class="img-circle img-responsive" src="images/picture1.jpg"/>
         <br>
         <p>"I have never forgotten to take my medicine since I started relying on Mr. MAd to manage my medication."</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-12">
         <img class="img-circle img-responsive" src="images/picture2.jpg"/>
         <br>
         <p>"It's almot like having a personal assistant who knows exactly when would be most convenient for me to be reminded."</p>
       </div>
-      <div class="col-md-4 ">
+      <div class="col-md-4 col-sm-12">
         <img class="img-circle img-responsive" src="images/picture3.jpg"/>
         <br>
         <p>"It made it much more interesting to learn more about my disease and medication. Mr. MAd gives me insightful information about my treatment."</p>
@@ -128,27 +152,29 @@
 </section>
 <!-- Testimonies div is now closed -->
 
-
-        <div class="share-buttons text-center">
-            <a href="http://www.facebook.com/" target="_blank">
-                <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-            </a>
-            <a href="http://www.linkedin.com/" target="_blank">
-             <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
-              </a>
-        <a href="https://plus.google.com/" target="_blank">
-            <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
-        </a>
-        <a href="https://twitter.com/" target="_blank">
-      <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-      </a>
-       <p class="text-center">Follow us on social media to read more testimonies.</p>
-      </div>
-
+<div class="share-buttons text-center">
+  <a href="http://www.facebook.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+  <a href="http://www.linkedin.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+  <a href="https://plus.google.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+  <a href="https://twitter.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+  <p class="text-center">Follow us on social media to read more testimonies.</p>
+</div>
 
 <footer class="text-center">
-      This website was created by Rachel Lee and Agathe Defrance
-    </footer>
+  This website was created by Rachel Lee and Agathe Defrance
+</footer>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+</script>
 
 </body>
 </html>
