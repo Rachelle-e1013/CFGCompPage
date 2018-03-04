@@ -2,6 +2,12 @@
 
 <html lang="en">
 <head>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
   <title> Mr. mAd </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,56 +24,59 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-   <a class="navbar-brand" href="./index.html"> <img alt="Mr. mAd" src="./images/App.png" style="max-width:80px"></a>
-   <button aria-controls="navbar" aria-expanded="false" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
-     <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="navbar-collapse collapse" id="navbar">
-     <ul>
-       <li class="nav-item"><a class="nav-link" href="./aboutme.html">  About me  </a> </li>
-       <li class="nav-item"><a class="nav-link" href="./theteam.html">  The team  </a></li>
-      <li class="nav-item"><a class="nav-link" href="./theresearch.html">  The research  </a></li>
-      <li style="float:right"><a class="active" href="./registeryourinterest.html">  Register your interest  </a></li>
-     </ul>
-   </div>
-  </nav>
+  <div class="topnav navbar-fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img class="navbaricon" alt="Mr. MAd" src="./images/mrmadicon.png"></a>
+      <a class="nav-link" href="./index.html">  Mr. MAd  </a>
+      <a class="nav-link" href="#features">  About me  </a>
+      <a class="nav-link" href="./theresearch.html">  The research  </a>
+      <a class="nav-link" href="./theteam.html">  The team  </a>
+    <a class="register register-active" href="./registeryourinterest.html">  Register your interest  </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 
-  <div class="container">
-      <div class="row">
-          <div class="col-md-12 " id="form_container">
-              <h2>Contact Us</h2>
-              <p> Please send your message below. We will get back to you at the earliest! </p>
-              <form role="form" method="post" id="reused_form">
-                  <div class="row">
-                      <div class="col-sm-12">
-                          <label for="message"> Message:</label>
-                          <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="7"></textarea>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-sm-6 ">
-                          <label for="name"> Your Name:</label>
-                          <input type="text" class="form-control" id="name" name="name" required>
-                      </div>
-                      <div class="col-sm-6 ">
-                          <label for="email"> Email:</label>
-                          <input type="email" class="form-control" id="email" name="email" required>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-sm-12 ">
-                          <button type="submit" class="btn btn-lg btn-default pull-right" >Send &rarr;</button>
-                      </div>
-                  </div>
-              </form>
-          </div>
+    <div class="dropdown">
+      <button class="dropbtn">More Information
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./theteam.html"> The Team </a>
+        <a href="./theresearch.html"> The Research </a>
+        <a href="./registeryourinterest"> Register </a>
       </div>
+    </div>
+
+    </div>
   </div>
 
-  <footer class="text-center">
-        This website was created by Rachel Lee and Agathe Defrance
-      </footer>
-      
- </body>
+
+  <div id="teamheader">
+    <h1 id="title2">Register your interest</h1>
+  </div>
+
+  <div class="form-style">
+  <h1>Contact Us</h1>
+  <form>
+  <input type="text" name="field1" placeholder="Your Name" rows="1"/>
+  <input type="email" name="field2" placeholder="Email Address" rows="1"/>
+  <textarea name="field3" placeholder="Type your Message" maxlength="6000" rows="8"></textarea>
+  <input type="submit" value="Send" />
+  </form>
+  </div>
+
+  <div>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQ5SAaTW-FtnBFbtmv1oYpDGdKKbHzx5BV0OXf-ejkm4epGg/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
+
+    <div class="share-buttons text-center">
+      <a href="http://www.facebook.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+      <a href="http://www.linkedin.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+      <a href="https://plus.google.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+      <a href="https://twitter.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+      <p class="text-center">Follow us on social media to read more testimonies.</p>
+    </div>
+
+    <footer class="text-center">
+      This website was created by Rachel Lee and Agathe Defrance
+    </footer>
+
+</body>
 </html>

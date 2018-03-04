@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
   <!--Bootstrap CSS style-->
   <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -16,21 +17,71 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-   <a class="navbar-brand" href="./index.html"> <img alt="Mr. mAd" src="./images/App.png" style="max-width:80px"></a>
-   <button aria-controls="navbar" aria-expanded="false" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
-     <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="navbar-collapse collapse" id="navbar">
-     <ul>
-       <li class="nav-item"><a class="nav-link" href="./aboutme.html">  About me  </a> </li>
-       <li class="nav-item"><a class="nav-link" href="./theteam.html">  The team  </a></li>
-      <li class="nav-item"><a class="nav-link" href="./theresearch.html">  The research  </a></li>
-      <li style="float:right"><a class="active" href="./registeryourinterest.html">  Register your interest  </a></li>
-     </ul>
-   </div>
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./index.html"><img class="navbaricon" alt="Mr. MAd" src="./images/mrmadicon.png"></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="./index.html">  Mr. MAd  </a> </li>
+        <li class="nav-item active"><a class="nav-link" href="./aboutme.html">  About me  </a> </li>
+        <li class="nav-item"><a class="nav-link" href="./theteam.html">  The team  </a></li>
+        <li class="nav-item"><a class="nav-link" href="./theresearch.html">  The research  </a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="register" href="./registeryourinterest.html">  Register your interest  </a></li>
+      </ul>
+    </div>
   </nav>
 
 
+  <div>
+    <br><br>
+    <h1>Welcome to my blog!</h1>
+    <br>
+    You'll get to read all about me and how I work here.
+    <!-- Format of page:
+    brief introduction at the top of basic information.
+    bottom of the page is similar to blog post type:
+    - individual boxes that click into pages
+    - each box is picture with title at the bottom of the picture with opacity: 0.5 background-size
+    - when mouse hovers over the box will rise and brief description of the blog post
 
+    example:
+    https://en-gb.wordpress.org/themes/writr/
+    https://en-gb.wordpress.org/themes/moca/
+    https://support.squarespace.com/hc/en-us/articles/216806128-Using-the-Skye-template
+  -->
+
+    <h2>1. How I came into the world</h2>
+    <p>Learn about how my creators got the initial idea before I came into the world.</p>
+    <br>
+
+    <h2>2. Update: symptom tracking feature</h2>
+    <p>You can now tell me about all of your symptoms and I'll make sure to remember it all so you can tell your doctor later on.</p>
+    <br>
+
+    <h2>3. Meet and Greet</h2>
+    <p>Come and meet me in person at the Imperial Science Fair coming up next week. Don't forget to get your tickets! </p>
+    <br>
+
+    <h2>4. Imperial Fair</h2>
+    <p>It was so good to have attended the Imperial Science Festival. It was so great to meet all of you there! </p>
+    <br>
+
+  </div>
+
+  <div class="share-buttons text-center">
+    <a href="http://www.facebook.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+    <a href="http://www.linkedin.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+    <a href="https://plus.google.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+    <a href="https://twitter.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+    <p class="text-center">Follow us on social media to read more testimonies.</p>
+  </div>
+
+  <footer class="text-center">
+    This website was created by Rachel Lee and Agathe Defrance
+  </footer>
+
+</body>
 </html>
