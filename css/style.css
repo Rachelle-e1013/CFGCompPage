@@ -63,6 +63,17 @@ li a:hover {
 }
 
 /*NavBar styling*/
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
 
 .navbaricon {
 	max-width: 45px;
@@ -135,11 +146,12 @@ li a:hover {
 
 	/* Style the dropdown button to fit inside the topnav */
 	.dropdown .dropbtn {
-	    font-size: 30px;
+			cursor: pointer;
+			font-size: 30px;
 	    border: none;
 	    outline: none;
 	    color: black;
-	    padding: 5px 10px;
+	    padding: 0 10px;
 	    background-color: inherit;
 	    font-family: inherit;
 	    margin: 0;
@@ -215,6 +227,7 @@ li a:hover {
 	}
 }
 /*-- END OF NAVBAR STYLING--*/
+
 
 /* INDEX.HTML */
 /* Header */
