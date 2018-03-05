@@ -33,18 +33,19 @@
       <a class="nav-link" href="#features">  About me  </a>
       <a class="nav-link" href="./theresearch.html">  The research  </a>
       <a class="nav-link" href="./theteam.html">  The team  </a>
-    <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
-    <a class="icon" onclick="fdrop()">
-    <div class="dropdown">
-      <button class="dropbtn" onclick="fdrop()">&#9776;</button>
-      <div class="dropdown-content">
-        <ul class="show">
-          <li><a class="show" href="./theteam.html"> The Team </a></li>
-          <li><a href="./theresearch.html"> The Research </a></li>
-          <li><a href="./registeryourinterest"> Register </a></li>
-        </ul>
-      </div>
-    </div></a>
+      <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
+      <a class="icon">
+        <div class="dropdown">
+          <button class="dropbtn" onclick="fdrop()">&#9776;</button>
+          <div class="myDropdown dropdown-content">
+          <ul class="show" id="dropdownul">
+            <li><a class="show" href="./theteam.html"> The Team </a></li>
+            <li><a href="./theresearch.html"> The Research </a></li>
+            <li><a href="./registeryourinterest"> Register </a></li>
+          </ul>
+          </div>
+        </div>
+      </a>
 
     </div>
   </div>
@@ -67,21 +68,22 @@
 <!-- Introduction section-->
 <div class="intro text-center">
   <br>
-    <h2 id="sectiontitle"> What is the problem? <h2>
-    <div class="row">
-      <div class="col-md-4">
-        <h3><span class="bigstats">50%</span><br>of patients don't take their medication as prescribed.</h3>
-      </div>
+  <h2 id="sectiontitle"> What is the problem? <h2>
+  <div class="row">
 
-      <div class="col-md-4">
-        <h3><span class="bigstats">£500m</span><br>of costs to the NHS arising from medication non-adherence.</h3>
-      </div>
-
-      <div class="col-md-4">
-        <h3><span class="bigstats">200k</span><br>deaths in the EU caused by missed doses of medication.</h3>
-      </div>
+    <div class="col-md-4">
+      <h3><span class="bigstats">50%</span><br>of patients don't take their medication as prescribed.</h3>
     </div>
-    <h3>Learn more facts and figures about medication non-adherence <a href="./theresearch.html"> here.</a></h3>
+
+    <div class="col-md-4">
+      <h3><span class="bigstats">£500m</span><br>of costs to the NHS arising from medication non-adherence.</h3>
+    </div>
+
+    <div class="col-md-4">
+      <h3><span class="bigstats">200k</span><br>deaths in the EU caused by missed doses of medication.</h3>
+    </div>
+  </div>
+  <h3>Learn more facts and figures about medication non-adherence <a href="./theresearch.html"> here.</a></h3>
 </div>
 <!-- Introduction div is now closed -->
 
@@ -149,7 +151,7 @@
 
 <script>
 function myFunction() {
-    var x = document.getElementById("myTopnav");
+    var x = document.getElementById("mytopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {

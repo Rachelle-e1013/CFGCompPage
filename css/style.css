@@ -67,6 +67,20 @@ li a:hover {
 }
 
 /*NavBar styling*/
+
+#dropdownul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+li {
+    float: left;
+}
+
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
     background-color: red;
 }
@@ -182,14 +196,14 @@ li a:hover {
 	}
 
 	/* Add a dark background on topnav links and the dropdown button on hover */
-	.topnav a:hover, .dropdown:hover .dropbtn {
+	.topnav a:hover, .dropdown:hover .dropbtn li a:hover{
 	    background-color: #555;
 	    color: white;
 	}
 
 	/* Add a grey background to dropdown links on hover */
 	.dropdown-content a:hover {
-	    background-color: #ddd;
+	    background-color: #f1f1f1;
 	    color: black;
 	}
 
@@ -524,7 +538,7 @@ display: inline;
 	min-height: 300px;
 	min-width: 300px;
 	background-position: center;
-	background-size: 300px 300px;
+	background-size: auto 300px;
 	background-repeat: no-repeat;
 }
 
@@ -541,11 +555,8 @@ display: inline;
   transition: opacity .2s, visibility .2s;
 	height: auto;
 	width: auto;
-	size: 300px 300px;
 	text-align: center;
 	font-size: 30px;
-	min-height: 300px;
-	min-width: 300px;
 	min-height: 300px;
 	min-width: 300px;
 }
