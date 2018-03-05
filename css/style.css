@@ -23,6 +23,10 @@ p {
   font-size: 18px;
 	color:black;
 }
+/* Responsive e-mail address in "the team" tab */
+#p2 {
+  font-size: 16px;
+}
 
 h2 {
 	font-weight: bold;
@@ -270,7 +274,7 @@ li a:hover {
 	font-family: 'Bungee Inline', cursive;
 	font-size: 100px;
 	text-shadow: 5px 5px #9EE9E6;
-	margin: 30px 0 0 0;
+	margin: 30px 30px 0 0;
 }
 
 
@@ -518,13 +522,14 @@ display: inline;
 
 .img_wrap {
 	min-height: 300px;
-	min-width: 500px;
-	width: auto;
-	background-size: cover;
+	min-width: 300px;
+	background-position: center;
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
 }
 
 .img_description {
-  position: absolute;
+  position: text-center;
   top: 0;
   bottom: 0;
   left: 0;
@@ -536,9 +541,13 @@ display: inline;
   transition: opacity .2s, visibility .2s;
 	height: auto;
 	width: auto;
-	max-width: 500px;
+	size: 300px 300px;
 	text-align: center;
 	font-size: 30px;
+	min-height: 300px;
+	min-width: 300px;
+	min-height: 300px;
+	min-width: 300px;
 }
 
 .waste {

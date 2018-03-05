@@ -24,26 +24,25 @@
 
 <body>
 
-  <div class="topnav navbar-fixed-top">
+  <div class="topnav navbar-fixed-top mytopnav">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html"><img class="navbaricon" alt="Mr. MAd" src="./images/mrmadicon.png"></a>
       <a class="nav-link" href="./index.html">  Mr. MAd  </a>
-      <a class="nav-link" href="#features">  About me  </a>
+      <a class="nav-link" href="./index.html#features">  About me  </a>
       <a class="nav-link" href="./theresearch.html">  The research  </a>
       <a class="nav-link" href="./theteam.html">  The team  </a>
-    <a class="register register-active" href="./registeryourinterest.html">  Register your interest  </a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-
+    <a class="register active" href="./registeryourinterest.html">  Register your interest  </a>
+    <a class="icon" onclick="fdrop()">
     <div class="dropdown">
-      <button class="dropbtn">More Information
-        <i class="fa fa-caret-down"></i>
-      </button>
+      <button class="dropbtn" onclick="fdrop()">&#9776;</button>
       <div class="dropdown-content">
-        <a href="./theteam.html"> The Team </a>
-        <a href="./theresearch.html"> The Research </a>
-        <a href="./registeryourinterest"> Register </a>
+        <ul class="show">
+          <li><a class="show" href="./theteam.html"> The Team </a></li>
+          <li><a href="./theresearch.html"> The Research </a></li>
+          <li><a href="./registeryourinterest"> Register </a></li>
+        </ul>
       </div>
-    </div>
+    </div></a>
 
     </div>
   </div>
@@ -71,7 +70,7 @@
       <a href="http://www.linkedin.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
       <a href="https://plus.google.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
       <a href="https://twitter.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
-      <p class="text-center">Follow us on social media to read more testimonies.</p>
+      <p class="text-center">Follow us on social media!</p>
     </div>
 
     <footer class="text-center">
