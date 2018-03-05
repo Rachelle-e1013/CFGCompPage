@@ -585,12 +585,8 @@ display: inline;
 		margin: auto -100px;
 	}
 
-	#title2 {
-		font-size:
-	}
-
 	#subtitle {
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	#headericon {
@@ -617,7 +613,25 @@ display: inline;
 		font-size: 50px;
 	}
 
+	#title {
+		font-size: 70px;
+	}
+
 	#teamheader {
 		height: 270px;
 	}
 }
+
+@media (max-width: 500px) {
+	.row {
+		padding: 5px 10px;
+	}
+}
+
+	#title {
+		margin: auto;
+	}
+
+	.img_description {
+		position: absolute;
+	}
