@@ -23,6 +23,10 @@ p {
   font-size: 18px;
 	color:black;
 }
+/* Responsive e-mail address in "the team" tab */
+#p2 {
+  font-size: 16px;
+}
 
 h2 {
 	font-weight: bold;
@@ -63,6 +67,31 @@ li a:hover {
 }
 
 /*NavBar styling*/
+
+#dropdownul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+li {
+    float: left;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
 
 .navbaricon {
 	max-width: 45px;
@@ -135,11 +164,12 @@ li a:hover {
 
 	/* Style the dropdown button to fit inside the topnav */
 	.dropdown .dropbtn {
-	    font-size: 30px;
+			cursor: pointer;
+			font-size: 30px;
 	    border: none;
 	    outline: none;
 	    color: black;
-	    padding: 5px 10px;
+	    padding: 0 10px;
 	    background-color: inherit;
 	    font-family: inherit;
 	    margin: 0;
@@ -166,14 +196,14 @@ li a:hover {
 	}
 
 	/* Add a dark background on topnav links and the dropdown button on hover */
-	.topnav a:hover, .dropdown:hover .dropbtn {
+	.topnav a:hover, .dropdown:hover .dropbtn li a:hover{
 	    background-color: #555;
 	    color: white;
 	}
 
 	/* Add a grey background to dropdown links on hover */
 	.dropdown-content a:hover {
-	    background-color: #ddd;
+	    background-color: #f1f1f1;
 	    color: black;
 	}
 
@@ -216,6 +246,7 @@ li a:hover {
 }
 /*-- END OF NAVBAR STYLING--*/
 
+
 /* INDEX.HTML */
 /* Header */
 .jumbotron {
@@ -257,7 +288,7 @@ li a:hover {
 	font-family: 'Bungee Inline', cursive;
 	font-size: 100px;
 	text-shadow: 5px 5px #9EE9E6;
-	margin: 30px 0 0 0;
+	margin: 30px 30px 0 0;
 }
 
 
@@ -505,13 +536,14 @@ display: inline;
 
 .img_wrap {
 	min-height: 300px;
-	min-width: 500px;
-	width: auto;
-	background-size: cover;
+	min-width: 300px;
+	background-position: center;
+	background-size: auto 300px;
+	background-repeat: no-repeat;
 }
 
 .img_description {
-  position: absolute;
+  position: text-center;
   top: 0;
   bottom: 0;
   left: 0;
@@ -523,9 +555,10 @@ display: inline;
   transition: opacity .2s, visibility .2s;
 	height: auto;
 	width: auto;
-	max-width: 500px;
 	text-align: center;
 	font-size: 30px;
+	min-height: 300px;
+	min-width: 300px;
 }
 
 .waste {
@@ -552,12 +585,8 @@ display: inline;
 		margin: auto -100px;
 	}
 
-	#title2 {
-		font-size:
-	}
-
 	#subtitle {
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	#headericon {
@@ -584,7 +613,25 @@ display: inline;
 		font-size: 50px;
 	}
 
+	#title {
+		font-size: 70px;
+	}
+
 	#teamheader {
 		height: 270px;
 	}
 }
+
+@media (max-width: 500px) {
+	.row {
+		padding: 5px 10px;
+	}
+}
+
+	#title {
+		margin: auto;
+	}
+
+	.img_description {
+		position: absolute;
+	}

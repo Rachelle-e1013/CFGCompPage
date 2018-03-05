@@ -21,66 +21,66 @@
 
 <body>
 
-  <div class="topnav navbar-fixed-top">
+  <div class="topnav navbar-fixed-top mytopnav">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html"><img class="navbaricon" alt="Mr. MAd" src="./images/mrmadicon.png"></a>
       <a class="nav-link" href="./index.html">  Mr. MAd  </a>
-      <a class="nav-link" href="#features">  About me  </a>
+      <a class="nav-link" href="./index.html#features">  About me  </a>
       <a class="nav-link active" href="./theresearch.html">  The research  </a>
       <a class="nav-link" href="./theteam.html">  The team  </a>
-    <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-
-    <div class="dropdown">
-      <button class="dropbtn">More Information
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="./theteam.html"> The Team </a>
-        <a href="./theresearch.html"> The Research </a>
-        <a href="./registeryourinterest"> Register </a>
+      <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
+      <a class="icon" onclick="fdrop()">
+      <div class="dropdown">
+        <button class="dropbtn" onclick="fdrop()">&#9776;</button>
+        <div class="dropdown-content">
+          <ul class="show">
+            <li><a class="show" href="./theteam.html"> The Team </a></li>
+            <li><a href="./theresearch.html"> The Research </a></li>
+            <li><a href="./registeryourinterest"> Register </a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-
+      </a>
     </div>
   </div>
 
   <div id="teamheader">
-    <h1 id="title">The Research</h1>
+    <h1 id="title2">The Research</h1>
   </div>
 
-<div class="container-fluid theresearch">
-  <div class="row" id="research">
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 img_wrap waste">
-      <p class="img_description">
-        <span class="h1">Medicine Waste</span>
-        <br>
-        <span>Wasted medicines costs the NHS £300 million pounds every year.</span>
-      </p>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 img_wrap poly">
-      <p class="img_description">
+<section>
+  <div id=research role="tablist">
+    <div class="row align-items-center" id="research">
+      <div class="col-md-4 col-sm-12 img_wrap waste">
+        <p class="img_description text-center">
+        <span class="h1">Medicine Waste</span><br>
+        Wasted medicines costs the NHS £300 million pounds every year.
+        </p>
+      </div>
+      <div class="col-md-4 col-sm-12 text-center img_wrap poly">
+        <p class="img_description text-center">
         <span class="h1">Polypharmacy</span>
         <br>
-        <span>Almost a quarter of men (22%) and women (24%) take at least three weekly prescribed medicines.</span>
-      </p>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 img_wrap admit">
-      <p class="img_description">
+        Almost a quarter of men (22%) and women (24%) take at least three weekly prescribed medicines.
+        </p>
+      </div>
+      <div class="col-md-4 col-sm-12 text-center img_wrap admit">
+        <p class="img_description text-center">
         <span class="h1">Incomplete Course of Medicines</span>
         <br>
-        <span>Only 6% of British adults say they have admited not finishing a course of medication.</span>
-      </p>
+        Only 6% of British adults say they have admited not finishing a course of medication.
+        </p>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
 <div class="share-buttons text-center">
-  <a href="http://www.facebook.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+  <a href="https://www.facebook.com/Mr-Mad-397910957311692/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
   <a href="http://www.linkedin.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
   <a href="https://plus.google.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
   <a href="https://twitter.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
-  <p class="text-center">Follow us on social media to read more testimonies.</p>
+  <p class="text-center">Follow us on social media for more information.</p>
 </div>
 
 <footer class="text-center">

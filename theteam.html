@@ -19,33 +19,30 @@
 
 <body>
 
-  <div class="topnav navbar-fixed-top">
+  <div class="topnav navbar-fixed-top mytopnav">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html"><img class="navbaricon" alt="Mr. MAd" src="./images/mrmadicon.png"></a>
       <a class="nav-link" href="./index.html">  Mr. MAd  </a>
-      <a class="nav-link" href="#features">  About me  </a>
+      <a class="nav-link" href="./index.html#features">  About me  </a>
       <a class="nav-link" href="./theresearch.html">  The research  </a>
       <a class="nav-link active" href="./theteam.html">  The team  </a>
-    <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-
-    <div class="dropdown">
-      <button class="dropbtn">More Information
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="./theteam.html"> The Team </a>
-        <a href="./theresearch.html"> The Research </a>
-        <a href="./registeryourinterest"> Register </a>
-      </div>
-    </div>
-
+      <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
+      <a class="icon" onclick="fdrop()">
+        <div class="dropdown">
+        <button class="dropbtn" onclick="fdrop()">&#9776;</button>
+          <div class="dropdown-content">
+            <ul class="show">
+              <li><a class="show" href="./theteam.html"> The Team </a></li>
+              <li><a href="./theresearch.html"> The Research </a></li>
+              <li><a href="./registeryourinterest"> Register </a></li>
+            </ul>
+          </div>
+        </div></a>
     </div>
   </div>
 
-
   <div id="teamheader">
-    <h1 id="title">Team Members</h1>
+    <h1 id="title2">Team Members</h1>
   </div>
 
   <div class="container">
@@ -57,7 +54,7 @@
       She is really passionate about MedTech and HealthTech. She was the founder alongside Eky
       of Mr. MAd through the WE Innovate programme.<br></p>
       <h3 class="text-right">Contact Details:</h3>
-      <p class="text-right">Email address: xi.lee17@imperial.ac.uk or xi.lee@kcl.ac.uk<br>
+      <p class="text-right" id="p2">Email address: xi.lee17@imperial.ac.uk or xi.lee@kcl.ac.uk<br>
       Phone number: 07570004100<br>
       </p>
     </div>
@@ -68,7 +65,7 @@
         She has also just recently completed her IBSc in Management and is particularly interested in
         Innovative Medicine. She joined WE Innovate alongside Rachel to create Mr. MAd.<br></p>
       <h3 class="text-left">Contact Details:</h3>
-      <p class="text-left">Email address: ekelemnna.obiejesie14@imperial.ac.uk<br>
+      <p class="text-left" id="p2">Email address: ekelemnna.obiejesie14@imperial.ac.uk<br>
       Phone number: 07571239482<br>
       </p>
     </div>
@@ -80,18 +77,18 @@
         resources. She joined the team through the CodeFirst:Girls course alongside Rachel learning
         to code HTML.<br></p>
       <h3 class="text-right">Contact Details:</h3>
-      <p class="text-right">Email address: agathe.defrance17@imperial.ac.uk<br>
+      <p class="text-right" id="p2">Email address: agathe.defrance17@imperial.ac.uk<br>
       Phone number: 07490387765<br>
       </p>
     </div>
   </div> <!-- Members div is now closed -->
 
   <div class="share-buttons text-center">
-    <a href="http://www.facebook.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+    <a href="https://www.facebook.com/Mr-Mad-397910957311692/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
     <a href="http://www.linkedin.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
     <a href="https://plus.google.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
     <a href="https://twitter.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
-    <p class="text-center">Follow us on social media to read more testimonies.</p>
+    <p class="text-center">Follow us on social media!</p>
   </div>
 
   <footer class="text-center">

@@ -2,9 +2,12 @@
 
 <html lang="en">
 <head>
+  <!--Icon stylesheets-->
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Fonts--->
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
@@ -30,41 +33,22 @@
       <a class="nav-link" href="#features">  About me  </a>
       <a class="nav-link" href="./theresearch.html">  The research  </a>
       <a class="nav-link" href="./theteam.html">  The team  </a>
-    <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-
-    <div class="dropdown">
-      <button class="dropbtn">More Information
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="./theteam.html"> The Team </a>
-        <a href="./theresearch.html"> The Research </a>
-        <a href="./registeryourinterest"> Register </a>
-      </div>
-    </div>
+      <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
+      <a class="icon">
+        <div class="dropdown">
+          <button class="dropbtn" onclick="fdrop()">&#9776;</button>
+          <div class="myDropdown dropdown-content">
+          <ul class="show" id="dropdownul">
+            <li><a class="show" href="./theteam.html"> The Team </a></li>
+            <li><a href="./theresearch.html"> The Research </a></li>
+            <li><a href="./registeryourinterest"> Register </a></li>
+          </ul>
+          </div>
+        </div>
+      </a>
 
     </div>
   </div>
-
-<!--
-  <nav class="navbar navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="./index.html"><img class="navbaricon" alt="Mr. MAd" src="./images/mrmadicon.png"></a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="nav-item active"><a class="nav-link" href="./index.html">  Mr. MAd  </a> </li>
-        <li class="nav-item"><a class="nav-link" href="#features">  About me  </a> </li>
-        <li class="nav-item"><a class="nav-link" href="./theteam.html">  The team  </a></li>
-        <li class="nav-item"><a class="nav-link" href="./theresearch.html">  The research  </a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="register" href="./registeryourinterest.html">  Register your interest  </a></li>
-      </ul>
-    </div>
-  </nav>
--->
 
 <header>
     <div id="landingPage" class="jumbotron text-center">
@@ -84,21 +68,22 @@
 <!-- Introduction section-->
 <div class="intro text-center">
   <br>
-    <h2 id="sectiontitle"> What is the problem? <h2>
-    <div class="row">
-      <div class="col-md-4">
-        <h3><span class="bigstats">50%</span><br>of patients don't take their medication as prescribed.</h3>
-      </div>
+  <h2 id="sectiontitle"> What is the problem? <h2>
+  <div class="row">
 
-      <div class="col-md-4">
-        <h3><span class="bigstats">£500m</span><br>of costs to the NHS arising from medication non-adherence.</h3>
-      </div>
-
-      <div class="col-md-4">
-        <h3><span class="bigstats">200k</span><br>deaths in the EU caused by missed doses of medication.</h3>
-      </div>
+    <div class="col-md-4">
+      <h3><span class="bigstats">50%</span><br>of patients don't take their medication as prescribed.</h3>
     </div>
-    <h3>Learn more facts and figures about medication non-adherence <a href="./theresearch.html"> here.</a></h3>
+
+    <div class="col-md-4">
+      <h3><span class="bigstats">£500m</span><br>of costs to the NHS arising from medication non-adherence.</h3>
+    </div>
+
+    <div class="col-md-4">
+      <h3><span class="bigstats">200k</span><br>deaths in the EU caused by missed doses of medication.</h3>
+    </div>
+  </div>
+  <h3>Learn more facts and figures about medication non-adherence <a href="./theresearch.html"> here.</a></h3>
 </div>
 <!-- Introduction div is now closed -->
 
@@ -145,7 +130,7 @@
       <div class="col-md-4 col-sm-12">
         <img class="img-circle img-responsive" src="images/picture3.jpg"/>
         <br>
-        <p>"It made it much more interesting to learn more about my disease and medication. Mr. MAd gives me insightful information about my treatment."</p>
+        <p>"It was so interesting to learn more about my disease and medication. Mr. MAd gives me insightful information about my treatment."</p>
       </div>
     </div>
   </div>
@@ -153,7 +138,7 @@
 <!-- Testimonies div is now closed -->
 
 <div class="share-buttons text-center">
-  <a href="http://www.facebook.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+  <a href="https://www.facebook.com/Mr-Mad-397910957311692/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
   <a href="http://www.linkedin.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
   <a href="https://plus.google.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
   <a href="https://twitter.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
@@ -166,12 +151,28 @@
 
 <script>
 function myFunction() {
-    var x = document.getElementById("myTopnav");
+    var x = document.getElementById("mytopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
         x.className = "topnav";
     }
+}
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function fdrop() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
 }
 
 </script>
