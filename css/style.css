@@ -635,3 +635,7 @@ display: inline;
 	.img_description {
 		position: absolute;
 	}
+
+	#iphone-chat {
+		margin-top: 5px;
+	}
