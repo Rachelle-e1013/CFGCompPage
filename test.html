@@ -1,101 +1,205 @@
 <!DOCTYPE html>
-<html>
 
-
-<section>
-<div id=research role="tablist">
-  <div class="row" id="research">
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 img_wrap waste">
-      <p class="img_description">
-        <span class="h1">Medicine Waste</span>
-        <br>
-        <span>Wasted medicines costs the NHS £300 million pounds every year.</span>
-      </p>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 img_wrap poly">
-      <p class="img_description">
-        <span class="h1">Polypharmacy</span>
-        <br>
-        <span>Almost a quarter of men (22%) and women (24%) take at least three weekly prescribed medicines.</span>
-      </p>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 img_wrap admit">
-      <p class="img_description">
-        <span class="h1">Incomplete Course of Medicines</span>
-        <br>
-        <span>Only 6% of British adults say they have admited not finishing a course of medication.</span>
-      </p>
-    </div>
-  </div>
-</div>
-  </section>
-
-
-
-
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="css/teststyle.css" rel="stylesheet" type="text/css">
+  <!--Icon stylesheets-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Fonts--->
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+
+  <title> Mr. MAd </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Bootstrap CSS style-->
+  <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+  <!--Our stylesheet-->
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
 
 </head>
+
 <body>
 
-<div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-</div>
-
-<div class="topnav navbar-fixed-top mytopnav">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="./index.html"><img class="navbaricon" alt="Mr. MAd" src="./images/mrmadicon.png"></a>
-    <a class="nav-link active" href="./index.html">  Mr. MAd  </a>
-    <a class="nav-link" href="#features">  About me  </a>
-    <a class="nav-link" href="./theresearch.html">  The research  </a>
-    <a class="nav-link" href="./theteam.html">  The team  </a>
-  <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
-  <a class="icon" onclick="myFunction()">
-    <div class="dropdown" id="responsivedropdown">
-      <button class="dropbtn" onclick="myFunction()">Dropdown
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content" id="myDropdown">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-    </div></a>
+    </nav>
 
-<!--
-  <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">&#9776;</button>
-    <div class="dropdown-content" id="myDropdown">
-        <a href="./theteam.html"> The Team </a>
-        <a href="./theresearch.html"> The Research </a>
-        <a href="./registeryourinterest"> Register </a>
+  <!-- <div class="topnav navbar-fixed-top mytopnav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img class="navbaricon" alt="Mr. MAd" src="./images/mrmadicon.png"></a>
+      <a class="nav-link active" href="./index.html">  Mr. MAd  </a>
+      <a class="nav-link" href="#features">  About me  </a>
+      <a class="nav-link" href="./theresearch.html">  The research  </a>
+      <a class="nav-link" href="./theteam.html">  The team  </a>
+      <a class="register" href="./registeryourinterest.html">  Register your interest  </a>
+      <a class="icon">
+        <div class="dropdown">
+          <button class="dropbtn" onclick="fdrop()">&#9776;</button>
+          <div class="myDropdown dropdown-content">
+            <!-- <ul class="show" id="dropdownul">
+              <a href="./theteam.html"> The Team </a>
+              <a href="./theresearch.html"> The Research </a>
+              <a href="./registeryourinterest"> Register </a>
+            <!-- </ul> -
+            </div>
+        </div>
+      </a>
+
     </div>
-  </div></a>-->
+  </div>-->
 
+<header>
+    <div id="landingPage" class="jumbotron text-center">
+      <div class="row">
+        <div class="col-md-5">
+          <img class="img-circle img-responsive" id="headericon" src="./images/mrmad.png"/>
+        </div>
+        <div class="col-md-7">
+          <h1 id="title">Mr. MAd</h1>
+          <h2 id="subtitle">Helping you take your medication at the right time, at the right dose, and in the right way.</h2>
+        </div>
+      </div>
+      <i class="fas fa-angle-double-down"></i>
+    </div>
+</header>
+
+<!-- Introduction section-->
+<div class="intro text-center">
+  <br>
+  <h2 id="sectiontitle"> What is the problem? <h2>
+  <div class="row">
+
+    <div class="col-md-4">
+      <h3><span class="bigstats">50%</span><br>of patients don't take their medication as prescribed.</h3>
+    </div>
+
+    <div class="col-md-4">
+      <h3><span class="bigstats">£500m</span><br>of costs to the NHS arising from medication non-adherence.</h3>
+    </div>
+
+    <div class="col-md-4">
+      <h3><span class="bigstats">200k</span><br>deaths in the EU caused by missed doses of medication.</h3>
+    </div>
+  </div>
+  <h3>Learn more facts and figures about medication non-adherence <a href="./theresearch.html"> here.</a></h3>
+</div>
+<!-- Introduction div is now closed -->
+
+<!-- Features section-->
+<div id="features">
+  <br>
+  <div class="transbox">
+    <h2 class="text-center" id="sectiontitle"> How can I help? </h2>
+    <div class="row" id="featurelist">
+      <div class="col-md-6 col-sm-6 mb-sm-65 mb-xs-65">
+        <img id="iphone-chat" class="img-responsive text-center" src="images/App_screen.png"/>
+      </div>
+      <div class="col-md-6 col-sm-6 mb-sm-65 mb-xs-65">
+        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i> I'm on Messenger</span>
+        <p>No need to download a separate app, find me on Facebook Messenger!</p>
+        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i> I'm built by Doctors and Medical Students</span>
+        <p>Don't worry, I know what I'm doing. I was trained by Doctors and Medical Students. </p>
+        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i>  I'm super interesting</h3></span>
+        <p>Say goodbye to the boring notifications. I'll just message you when it's time to take your medication.</p>
+        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i>  Personalise me!</span>
+        <p>Choose the most effective way for me to remind you to take your medication.</p>
+        <span id="headerfeatures"><i class="fas fa-arrow-alt-circle-right"></i> I'm super positive</span>
+        <p>I'll be encouraging you all along the way!</p>
+      </div>
+    </div>
   </div>
 </div>
 
-<h3>Dropdown Menu inside a Navigation Bar</h3>
-<p>Click on the "Dropdown" link to see the dropdown menu.</p>
+<br><br>
+<section>
+    <h2 class="text-center" id="sectiontitle"> Patient testimonies </h2>
+    <div id=testimonies role="tablist">
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <img class="img-circle img-responsive" src="images/picture1.jpg"/>
+        <br>
+        <p>"I have never forgotten to take my medicine since I started relying on Mr. MAd to manage my medication."</p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img class="img-circle img-responsive" src="images/picture2.jpg"/>
+        <br>
+        <p>"It's almot like having a personal assistant who knows exactly when would be most convenient for me to be reminded."</p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img class="img-circle img-responsive" src="images/picture3.jpg"/>
+        <br>
+        <p>"It was so interesting to learn more about my disease and medication. Mr. MAd gives me insightful information about my treatment."</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Testimonies div is now closed -->
+
+<div class="share-buttons text-center">
+  <a href="https://www.facebook.com/Mr-Mad-397910957311692/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+  <a href="http://www.linkedin.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+  <a href="https://plus.google.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+  <a href="https://twitter.com/" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+  <p class="text-center">Follow us on social media to read more testimonies.</p>
+</div>
+
+<footer class="text-center">
+  This website was created by Rachel Lee and Agathe Defrance
+</footer>
 
 <script>
+function myFunction() {
+    var x = document.getElementById("mytopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
-function myFunction() {
+function fdrop() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
@@ -108,6 +212,8 @@ window.onclick = function(e) {
       }
   }
 }
+
 </script>
+
 </body>
 </html>
